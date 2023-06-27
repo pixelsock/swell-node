@@ -38,6 +38,7 @@
   "scripts": {
     "test": "jest --config=jest.config.json",
     "test:watch": "jest --config=jest.config.json --watch",
-    "start": "--experimental-modules app.mjs"
+    "start": "node --experimental-modules app.mjs"
   }
+  
 }
